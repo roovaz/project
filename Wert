@@ -1,3 +1,4 @@
+//a)
 public enum Wert {
     SIEBEN,
     ACHT,
