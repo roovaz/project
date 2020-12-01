@@ -1,17 +1,18 @@
+//b)
 public class Karte {
     Farbe farbe;
     Wert wert;
-
+//b)
     public String toString(){
         return farbe + "" + wert;
     }
-
+//c)
     public static Karte neueKarte(Farbe f, Wert w){
 
         return neueKarte(f , w);
 
     }
-
+//c)
     public static Karte neueKarte(String f, String w){
         
         return neueKarte(f , w);
