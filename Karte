@@ -1,0 +1,46 @@
+public class Karte {
+    Farbe farbe;
+    Wert wert;
+
+    public String toString(){
+        return farbe + "" + wert;
+    }
+
+    public static Karte neueKarte(Farbe f, Wert w){
+
+        return neueKarte(f , w);
+
+    }
+
+    public static Karte neueKarte(String f, String w){
+        
+        return neueKarte(f , w);
+
+    }
+//d) Anzahl von Farb/Wert kombinationen.
+    public static int kombinationen(){
+
+        return Wert.values().length * Farbe.values().length;
+    }
+//d) 
+    public static Karte[] skatblatt(){
+
+
+    }
+
+//e)
+    public boolean bedient(Karte other){
+          if(this.k1 == Wert.other || this.k1 == Farbe.other || this.k1.Wert.Bube){
+            return true;
+          }   
+          else{
+          return false;
+          }
+
+    }
+
+
+
+    
+    
+}
